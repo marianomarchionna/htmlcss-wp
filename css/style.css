@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 /*common*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix{
     content: "";
     display: table;
@@ -16,11 +20,35 @@
 }
 /*fine common*/
 
+/*header*/
 header{
     background-color: violet;
-    height: 100px;
     margin: 10px;
 }
+
+img{
+    height: 70px;
+    padding-right: 20px;
+    border-right: 1px solid lightgrey;
+}
+
+nav{
+    margin: 40px 0;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+/*fine header*/
 
 .slider{
     background-color: goldenrod;
