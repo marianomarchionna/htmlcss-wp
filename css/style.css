@@ -18,6 +18,13 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
 /*fine common*/
 
 /*header*/
@@ -56,14 +63,9 @@ nav li a{
     height: 450px;
     margin: 10px;
     color: white;
-}
-
-.overlay{
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+
 
 .slider img{
     width: 100%;
@@ -75,41 +77,73 @@ nav li a{
 .slider-text{
     position: absolute;
     right: 45%;
-    bottom: 50px;
+    bottom: 60px;
     left: 5%;
     font-weight: 500;
     font-size: 21px;
 }
 /*fine banner*/
 
-/*parte esercizio con float*/
-.main{
-    background-color: blue;
-    margin: 10px;
-}
-
+/*titoli*/
 .title{
-    background-color: cornflowerblue;
-    height: 50px;
-    margin-bottom: 10px;
+    margin: 30px 0;
 }
 
-.text,
-.text3{
-    background-color: cornflowerblue;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: calc(100% / 5 );
+.title h2{
+    font-weight: 700;
+    font-size: 37px;
 }
 
-.text2{
-    background-color: cornflowerblue;
-    float: left;
+.title p{
+    color: gray;
+}
+/*fine titoli*/
+
+/*main*/
+.main{
     margin: 10px;
-    width: calc((100% / 5)*3 - 20px);
 }
-/*fine float*/
+
+.col {
+    float: left;
+    position: relative;
+}
+
+.left,
+.right {
+    width: calc(100% / 5);
+}
+
+.center {
+    width: calc(100% / 5 * 3 - 20px);
+    margin: 0px 10px;
+}
+
+.pictures {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+}
+
+.pictures img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.col h4 {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.col p {
+    color: gray;
+}
+/*fine main*/
 
 footer{
     background-color: darkmagenta;
