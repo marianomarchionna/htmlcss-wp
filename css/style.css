@@ -145,10 +145,15 @@ nav li a{
 /*fine main*/
 
 /*footer*/
-footer span {
+footer p {
     display: block;
     text-align: center;
     color: black;
     margin: 30px 0;
+}
+
+footer span{
+    color: red;
+    font-size: 25px;
 }
 /*fine footer*/
