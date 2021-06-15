@@ -122,7 +122,6 @@ nav li a{
 .pictures {
     position: relative;
     border-radius: 10px;
-    overflow: hidden;
     height: 250px;
     width: 100%;
 }
@@ -145,8 +144,11 @@ nav li a{
 }
 /*fine main*/
 
-footer{
-    background-color: darkmagenta;
-    height: 50px;
-    margin: 10px;
+/*footer*/
+footer span {
+    display: block;
+    text-align: center;
+    color: black;
+    margin: 30px 0;
 }
+/*fine footer*/
