@@ -22,11 +22,10 @@ body{
 
 /*header*/
 header{
-    background-color: violet;
     margin: 10px;
 }
 
-img{
+#logo img{
     height: 70px;
     padding-right: 20px;
     border-right: 1px solid lightgrey;
@@ -45,16 +44,43 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    color: lightgray;
+    color: gray;
 }
 
 /*fine header*/
 
+/*slider o banner*/
+
 .slider{
-    background-color: goldenrod;
-    height: 400px;
+    position: relative;
+    height: 450px;
     margin: 10px;
+    color: white;
 }
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.slider-text{
+    position: absolute;
+    right: 45%;
+    bottom: 50px;
+    left: 5%;
+    font-weight: 500;
+    font-size: 21px;
+}
+/*fine banner*/
 
 /*parte esercizio con float*/
 .main{
