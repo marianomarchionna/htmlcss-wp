@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*common*/
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*fine common*/
+
+header{
+    background-color: violet;
+    height: 100px;
+    margin: 10px;
+}
+
+.slider{
+    background-color: goldenrod;
+    height: 400px;
+    margin: 10px;
+}
+
+/*parte esercizio con float*/
+.main{
+    background-color: blue;
+    margin: 10px;
+}
+
+.title{
+    background-color: cornflowerblue;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.text,
+.text3{
+    background-color: cornflowerblue;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: calc(100% / 5 );
+}
+
+.text2{
+    background-color: cornflowerblue;
+    float: left;
+    margin: 10px;
+    width: calc((100% / 5)*3 - 20px);
+}
+/*fine float*/
+
+footer{
+    background-color: darkmagenta;
+    height: 50px;
+    margin: 10px;
+}
